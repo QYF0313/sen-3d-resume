@@ -222,4 +222,3 @@ export function sectionCount(section: WorkSection): number {
   if (section.groups) return section.groups.reduce((n, g) => n + g.items.length, 0)
   return 0
 }
-尝试添加个人项目经历
