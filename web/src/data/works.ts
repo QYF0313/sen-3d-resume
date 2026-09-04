@@ -72,6 +72,7 @@ export const WORKS: Record<'zh' | 'en', WorksLang> = {
         items: [
           { name: '谁在弹古琴', meta: '互动项目', slug: 'guqin' },
           { name: '新加坡联合早报 · 校园时光机', meta: '互动项目', slug: 'time-machine' },
+          {name: "亲野自然|慧动体育 研学部", meta: "活动策划执行", slug: "example"},
           { name: '动画合集', meta: '动画', slug: 'animation-collection' },
           { name: '其他作品', slug: 'other-works' },
         ],
@@ -221,3 +222,4 @@ export function sectionCount(section: WorkSection): number {
   if (section.groups) return section.groups.reduce((n, g) => n + g.items.length, 0)
   return 0
 }
+尝试添加个人项目经历
